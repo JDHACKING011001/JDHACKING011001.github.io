@@ -1,8 +1,9 @@
+
 body{
     margin: 0px;
     padding: 0px;
     color: rgb(29, 29, 29);
-    font-family: Helvetica;
+    font-family: 'rubik';
 }
 
 h1{
@@ -46,7 +47,7 @@ h1{
 }
 
 .card{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(223, 223, 223);
     width: 100%;
     margin: 0px;
     border-radius: 10px;
@@ -56,14 +57,20 @@ h1{
     overflow: hidden;
 }
 
-.card h3{
+.card h1{
     margin-top: 0px;
     padding-left: 15px;
+    font-size: 1.1em;
+}
+
+.card p{
+    text-align: center;
+
+    font-weight: 900;
 }
 
 .card img{
     width: 100%;
-
 }
 
 
@@ -78,7 +85,7 @@ nav{
     margin-top: 80px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .grid{
         display: grid;
         grid-template-columns:   1fr 1fr;
