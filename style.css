@@ -6,7 +6,7 @@ body{
     font-family: 'rubik';
 }
 
-h1{
+#titulo{
     text-align: center;
     margin: 30px;
     font-size: 50px;
