@@ -6,11 +6,35 @@ body{
     font-family: 'rubik';
 }
 
-#titulo{
+.glass h1{
     text-align: center;
     margin: 30px;
     font-size: 50px;
 }
+
+.fondo{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(https://www.xtrafondos.com/descargar.php?id=4747&resolucion=3840x2400) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.glass{
+    width: 85rem;
+    height:750px;
+    border: 2px solid #fafafa10;
+    margin:0 auto;
+    border-radius: 20px;
+    background: #fafafa10;
+    backdrop-filter: blur(30px);
+    font-family: 'Space Mono', monospace;
+    color: rgb(241, 255, 240);
+}
+
+
 
 .container{
     height: 100%;
@@ -27,7 +51,7 @@ body{
 .item{
     padding: 5px;
     text-decoration: none;
-    color: azure;
+    color: rgb(241, 255, 240);
 }
 
 .grid{
