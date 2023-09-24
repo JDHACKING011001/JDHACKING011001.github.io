@@ -128,6 +128,13 @@ nav{
         
     } 
 
+    .glass{
+        height: 400px;
+    }
+    .fondo{
+        height: 450px;
+    }
+
     h1{
         font-size: 40px;
     }
