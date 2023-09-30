@@ -6,6 +6,38 @@ body{
     font-family: 'rubik';
 }
 
+.nav{
+    display: flex;
+    height: 85px;
+    background-color: rgb(29, 29, 29);
+    align-items: center;
+    justify-content: space-between;
+    padding:0 26px;
+}
+
+
+.nav-right ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right a{
+    color:rgb(241, 255, 240);
+    text-decoration: none;
+    margin: 4px;
+}
+
+.nav-left{
+ display: flex;
+}
+
+.logo-nav{
+    width: 150px;
+    
+}
+
 .glass h1{
     text-align: center;
     margin: 30px;
@@ -19,7 +51,7 @@ body{
     background: url(https://www.xtrafondos.com/descargar.php?id=4747&resolucion=3840x2400) no-repeat center;
     background-size: cover;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .glass{
@@ -35,32 +67,12 @@ body{
     color: rgb(241, 255, 240);
 }
 
-.container{
-    height: 100%;
-    margin: 0px;
-    display: flex;
-    padding-left: 35px;
-    padding-right: 35px;
-    justify-content: space-between;
-}
 
 .logo{
     width: 300px;
-    display: block;
-    margin: auto;
+    
 }
 
-.container ul{
-    display: flex;
-    list-style: none;
-    align-items:center;
-}
-
-.item{
-    padding: 5px;
-    text-decoration: none;
-    color: rgb(241, 255, 240);
-}
 
 .grid{
     display: grid;
@@ -102,12 +114,6 @@ body{
 
 .card img{
     width: 100%;
-}
-
-
-nav{
-    height: 85px;
-    background-color: rgb(29, 29, 29);
 }
 
 .pie{
