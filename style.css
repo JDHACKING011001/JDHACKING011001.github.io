@@ -33,6 +33,13 @@ body{
     color:rgb(241, 255, 240);
     text-decoration: none;
     margin: 5px;
+    transition: 0.3s;
+}
+
+.nav-right a:hover{ 
+    background-color: aquamarine;
+    color: black;
+    text-shadow: 1px 1px 2px rgb(174, 253, 99);;
 }
 
 .nav-left{
